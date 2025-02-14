@@ -1,0 +1,5 @@
+.vscode/settings.json
+bin/App.class
+bin/Ottagono.class
+bin/Pentagono.class
+bin/Poligono.class
