@@ -3,7 +3,7 @@ public class Ottagono implements Poligono {
 
     private double lato;
 
-    private double COST;
+    private final double COST;
 
     public Ottagono(double lato) {
         this.lato = lato;
