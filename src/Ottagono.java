@@ -10,16 +10,13 @@ public class Ottagono implements Poligono {
         COST = 4.828;
     }
 
+ 
     @Override
-    public double calcolaPerimetro() {
-        double perimetro = lato * 8;
-        return perimetro;
-    }
-
-    @Override
-    public double calcolaArea() {
+    public String calcolaAreaPerimetro() {
+        double perimetro = lato *8;
         double area = (lato * lato) * COST;
-        return area;
+        String result = "Il perimetro è: " + perimetro +" l'area è: " + area;
+        return result;
     }
 
 }

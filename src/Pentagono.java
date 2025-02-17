@@ -10,16 +10,13 @@ public class Pentagono implements Poligono {
         COST = 1.72;
     }
 
-    @Override
-    public double calcolaPerimetro() {
-        double perimetro = lato * 5;
-        return perimetro;
-    }
 
     @Override
-    public double calcolaArea() {
+    public String calcolaAreaPerimetro() {
+        double perimetro = lato * 5;
         double area = (lato * lato) * COST;
-        return area;
+        String result = "Il perimetro è: " + perimetro +" l'area è: " + area;
+        return result;
     }
 
 }

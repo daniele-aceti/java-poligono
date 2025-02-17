@@ -5,8 +5,7 @@ Creare una classe Main di test in cui generare delle istanze dei poligoni. */
 
 public interface Poligono {
 
-    public double calcolaPerimetro();
 
-    public double calcolaArea();
+    public String calcolaAreaPerimetro();
 
 }
